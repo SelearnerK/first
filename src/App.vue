@@ -2,24 +2,25 @@
   <div id="app">
     <!--img alt="Vue logo" src="./assets/logo.png"-->
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <my-first></my-first>
-<!--    <el-test></el-test>-->
+    <!--    <el-test></el-test>-->
     <!--<router-link to="/my">myfirst</router-link>
     <router-link to="/hello">hello</router-link>
     <router-view></router-view>-->
+    <select-func></select-func>
   </div>
 
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import MyFirst from "@/components/myFirst";
+//import MyFirst from "@/components/myFirst";
 //import elTest from "@/components/sonComponents/elTest";
-
+import selectFunc from "@/components/selectFunc";
 export default {
   name: 'App',
   components: {
-    MyFirst,
+    selectFunc,
+    //MyFirst,
     //HelloWorld,
     // elTest
   }
