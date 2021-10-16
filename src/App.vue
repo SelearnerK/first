@@ -6,6 +6,7 @@
     <!--<router-link to="/my">myfirst</router-link>
     <router-link to="/hello">hello</router-link>
     <router-view></router-view>-->
+    <step-show></step-show>
     <select-func></select-func>
   </div>
 
@@ -16,9 +17,11 @@
 //import MyFirst from "@/components/myFirst";
 //import elTest from "@/components/sonComponents/elTest";
 import selectFunc from "@/components/selectFunc";
+import stepShow from "@/components/stepShow";
 export default {
   name: 'App',
   components: {
+    stepShow,
     selectFunc,
     //MyFirst,
     //HelloWorld,
